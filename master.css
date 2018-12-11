@@ -1,0 +1,23 @@
+.fiche {
+background-color: white;
+width: 600px;
+margin: 10px auto;
+text-align: center;
+}
+body {
+  background:#333;
+}
+img{
+  max-width: 100%;
+}
+.similar{
+  width: 100%;
+  background-color: #333fff;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: center;
+}
+.block-similar{
+  width: 150px;
+}
