@@ -1,5 +1,7 @@
 <?php
 
+session_start();
+
 if (!empty($_POST['numero'])) {
 
 
@@ -19,9 +21,9 @@ if (!empty($_POST['numero'])) {
   <title></title>
 </head>
 <body>
+<?php echo $_SESSION['pseudo']; ?>
 
-
-  <form class="" action="quoi_mater.php" method="post">
+  <form class="" action="quoi_regarder.php" method="post">
 
     <input type="text" name="numero" value="">
     <button type="submit" name="button" value="submit">Submit</button>
